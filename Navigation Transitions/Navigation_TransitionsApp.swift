@@ -11,7 +11,7 @@ import SwiftUI
 struct Navigation_TransitionsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductCatalogView()
         }
     }
 }
