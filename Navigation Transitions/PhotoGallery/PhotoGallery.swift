@@ -45,7 +45,6 @@ struct PhotoGallery: View {
                 }
                 .padding()
             }
-            .animation(.spring())
             .navigationTitle("Photos")
             .navigationDestination(for: Photo.self) { photo in
                 PhotoDetailView(photo: photo)
